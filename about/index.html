@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>About Me | fastpages</title>
+  <meta charset = "utf-8">
+  <meta content = "IE=edge" http-equiv = "X-UA-Compatible">
+  <meta content = "width=device-width, initial-scale=1" name = "viewport">
+  <meta content = "summary" name = "twitter:card"/><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>About Me | Random Programming Stuff</title>
 <meta name="generator" content="Jekyll v4.0.0" />
 <meta property="og:title" content="About Me" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
-<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta name="description" content="A blog about learning a few tips and tricks of the programming by (re)implementing some random (sometimes useful, sometimes useless) tasks and stuff" />
+<meta property="og:description" content="A blog about learning a few tips and tricks of the programming by (re)implementing some random (sometimes useful, sometimes useless) tasks and stuff" />
 <link rel="canonical" href="https://random-programming-stuff.github.io/blog/about/" />
 <meta property="og:url" content="https://random-programming-stuff.github.io/blog/about/" />
-<meta property="og:site_name" content="fastpages" />
+<meta property="og:site_name" content="Random Programming Stuff" />
 <script type="application/ld+json">
-{"headline":"About Me","description":"An easy to use blogging platform with support for Jupyter Notebooks.","@type":"WebSite","url":"https://random-programming-stuff.github.io/blog/about/","name":"fastpages","@context":"https://schema.org"}</script>
+{"headline":"About Me","description":"A blog about learning a few tips and tricks of the programming by (re)implementing some random (sometimes useful, sometimes useless) tasks and stuff","@type":"WebSite","url":"https://random-programming-stuff.github.io/blog/about/","name":"Random Programming Stuff","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://random-programming-stuff.github.io/blog/feed.xml" title="fastpages" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
-<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css"><link type="application/atom+xml" rel="alternate" href="https://random-programming-stuff.github.io/blog/feed.xml" title="fastpages" />
+<link href = '/blog/assets/css/style.css' rel = "stylesheet"><link type="application/atom+xml" rel="alternate" href="https://random-programming-stuff.github.io/blog/feed.xml" title="Random Programming Stuff" /><link href = '/blog/images/favicon.ico' rel = "shortcut icon" type = "image/x-icon">
+<link href = '/blog/images/apple-touch-icon.png' rel = "apple-touch-icon" sizes = "180x180">
+<link href = '/blog/images/favicon-32x32.png' rel = "icon" sizes = "32x32" type = "image/png">
+<link href = '/blog/images/favicon-16x16.png' rel = "icon" sizes = "16x16" type = "image/png">
+<link href = '/blog/images/site.webmanifest' rel = "manifest">
+<link href = "https://unpkg.com/@primer/css/dist/primer.css" rel = "stylesheet"/>
+<link href = "//use.fontawesome.com/releases/v5.0.7/css/all.css" rel = "stylesheet">
 
 <script>
-function wrap_img(fn) {
-    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
-        var elements = document.querySelectorAll(".post img");
-        Array.prototype.forEach.call(elements, function(el, i) {
-            if (el.getAttribute("title") && (el.className != "emoji")) {
-                const caption = document.createElement('figcaption');
-                var node = document.createTextNode(el.getAttribute("title"));
-                caption.appendChild(node);
-                const wrapper = document.createElement('figure');
-                wrapper.className = 'image';
-                el.parentNode.insertBefore(wrapper, el);
-                el.parentNode.removeChild(el);
-                wrapper.appendChild(el);
-                wrapper.appendChild(caption);
-            }
-        });
-    } else { document.addEventListener('DOMContentLoaded', fn); }
-}
-window.onload = wrap_img;
+    function wrap_img(fn) {
+        if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+            var elements = document.querySelectorAll(".post img");
+            Array.prototype.forEach.call(elements, function (el, i) {
+                if (el.getAttribute("title") && ( el.className != "emoji" )) {
+                    const caption = document.createElement('figcaption');
+                    var node = document.createTextNode(el.getAttribute("title"));
+                    caption.appendChild(node);
+                    const wrapper = document.createElement('figure');
+                    wrapper.className = 'image';
+                    el.parentNode.insertBefore(wrapper, el);
+                    el.parentNode.removeChild(el);
+                    wrapper.appendChild(el);
+                    wrapper.appendChild(caption);
+                }
+            });
+        } else { document.addEventListener('DOMContentLoaded', fn); }
+    }
+    window.onload = wrap_img;
 </script>
 
 <script>
     document.addEventListener("DOMContentLoaded", function(){
-    // add link icon to anchor tags
-    var elem = document.querySelectorAll(".anchor-link")
-    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+      // add link icon to anchor tags
+      var elem = document.querySelectorAll(".anchor-link");
+      elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
     });
 </script>
 </head>
 <body><header class="site-header">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">fastpages</a><nav class="site-nav">
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Random Programming Stuff</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
           <span class="menu-icon">
@@ -73,15 +78,42 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</p>
+    <h2 id="welcome-to-random-programming-stuff">Welcome to Random Programming Stuff.</h2>
+<p><img src="/blog/images/home-page.jpg" alt="" /></p>
 
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>a blogging platform that natively supports Jupyter notebooks in addition to other formats. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
+<p>Here you’ll find some random programming articles on various topics such as python programming tips, web design,  web scraping, working with useful python libraries etc.
+Most of the posts will be about solving a well known problem, and some posts on solving problems which are not at all problems.</p>
+
+<script>
+    window.onload = function () {
+        let random_int = Math.round(Math.random() * 2352);
+        if (random_int === 404) {
+            alert("You're some randomly (un)lucky person");
+        }
+        fetch(`https://cors-anywhere.herokuapp.com/https://xkcd.com/${random_int}/info.0.json`).then(function (xkcd_res) {
+            return xkcd_res.json();
+        }).then(function (xkcd_json) {
+            document.getElementById("random_xkcd_img").src = xkcd_json.img;
+            document.getElementById("random_xkcd_img").alt = xkcd_json.alt;
+            document.getElementById("random_xkcd_anchor").href = "https://xkcd.com/" + random_int;
+            document.getElementById("random_xkcd_caption").innerHTML = "<h4>" + xkcd_json.safe_title + "</h4>";
+        });
+    };
+</script>
+
+<div class="xkcd-img">
+  <h3 class="no_toc">Here's a random <a href="https://xkcd.com/">XKCD comic</a> for you.</h3>
+  <a id="random_xkcd_anchor">
+    <figure>
+      <figcaption id="random_xkcd_caption"></figcaption>
+      <img alt="Random XKCD comic" id="random_xkcd_img" />
+    </figure>
+  </a>
 </div>
+
+<h3 id="-naveen-namani">© Naveen Namani</h3>
+
+<p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong></p>
 
   </div>
 
@@ -104,11 +136,11 @@ window.onload = wrap_img;
         </p>
       </div>
       <div class="footer-col">
-        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+        <p>A blog about learning a few tips and tricks of the programming by (re)implementing some random (sometimes useful, sometimes useless) tasks and stuff</p>
       </div>
     </div>
 
-    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/fastai" title="fastai"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/fastdotai" title="fastdotai"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/naninaveen" title="naninaveen"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/naveennamani" title="naveennamani"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li><li><a rel="me" href="https://t.me/naveennamani" title="naveennamani"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#telegram"></use></svg></a></li></ul>
 </div>
 
   </div>
