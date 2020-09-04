@@ -262,7 +262,7 @@ But wait, you haven't told me about how I can remove them and how I can add pyth
 
 <h1 class = "no_toc">
 <center>
-<a href = "https://github.com/naveennamani/pywin-cm" target="_blank" rel="noopener noreferrer">
+<a href = "https://github.com/naveennamani/pywin-contextmenu" target="_blank" rel="noopener noreferrer">
 ¯\_(ツ)_/¯
 </a>
 </center>
@@ -271,3 +271,17 @@ But wait, you haven't told me about how I can remove them and how I can add pyth
 ---
 
 {% include random_xkcd.html %}
+
+---
+This post is a note to myself during the development of a pypi package.
+Please checkout the pypi package [here](https://pypi.org/project/pywin-contextmenu/) and the source code [here](https://github.com/naveennamani/pywin_contextmenu).
+
+---
+<h4 class = "no_toc" style = "color:red;">
+There is happiness in doing random things at random times with random people.
+</h4>
+<h1 class = "no_toc">
+&copy; Naveen Namani
+</h1>
+
+---
